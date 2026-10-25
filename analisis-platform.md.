@@ -1,1 +1,20 @@
 
+# Bagian 2 — Analisis Komparatif Platform (35 poin)
+
+## Tabel Perbandingan Platform
+
+| Aspek | Web | Desktop | Mobile |
+|---|---|---|---|
+| Bahasa utama | HTML, CSS, JavaScript | Java, C#, C++ | Java, Kotlin, Dart |
+| Arsitektur | Client-server | Standalone atau client-server | Client-server atau standalone |
+| Cara distribusi | Melalui browser dan URL | Installer atau toko aplikasi | Google Play Store atau App Store |
+| Keunggulan | Mudah diakses, lintas platform | Dapat mengakses fitur sistem operasi | Praktis, portabel, memanfaatkan fitur HP |
+| Keterbatasan | Bergantung pada browser dan jaringan untuk fitur online | Perlu instalasi dan menyesuaikan OS | Terbatas oleh ukuran layar dan kemampuan perangkat |
+| Contoh aplikasi | Google Docs, Tokopedia | Microsoft Word, Visual Studio Code | WhatsApp, Instagram |
+
+## Referensi
+
+1. MDN Web Docs. (n.d.). *Web technology for developers*. https://developer.mozilla.org/en-US/docs/Web
+2. Microsoft Learn. (n.d.). *Windows apps documentation*. https://learn.microsoft.com/en-us/windows/apps/
+3. Android Developers. (n.d.). *Build your first Android app*. https://developer.android.com/get-started
+
