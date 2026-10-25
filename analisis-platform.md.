@@ -1,20 +1,182 @@
 
-# Bagian 2 — Analisis Komparatif Platform (35 poin)
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Komparatif Platform</title>
 
-## Tabel Perbandingan Platform
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 30px;
+        }
 
-| Aspek | Web | Desktop | Mobile |
-|---|---|---|---|
-| Bahasa utama | HTML, CSS, JavaScript | Java, C#, C++ | Java, Kotlin, Dart |
-| Arsitektur | Client-server | Standalone atau client-server | Client-server atau standalone |
-| Cara distribusi | Melalui browser dan URL | Installer atau toko aplikasi | Google Play Store atau App Store |
-| Keunggulan | Mudah diakses, lintas platform | Dapat mengakses fitur sistem operasi | Praktis, portabel, memanfaatkan fitur HP |
-| Keterbatasan | Bergantung pada browser dan jaringan untuk fitur online | Perlu instalasi dan menyesuaikan OS | Terbatas oleh ukuran layar dan kemampuan perangkat |
-| Contoh aplikasi | Google Docs, Tokopedia | Microsoft Word, Visual Studio Code | WhatsApp, Instagram |
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
 
-## Referensi
+        h1 {
+            text-align: center;
+            color: #243447;
+        }
 
-1. MDN Web Docs. (n.d.). *Web technology for developers*. https://developer.mozilla.org/en-US/docs/Web
-2. Microsoft Learn. (n.d.). *Windows apps documentation*. https://learn.microsoft.com/en-us/windows/apps/
-3. Android Developers. (n.d.). *Build your first Android app*. https://developer.android.com/get-started
+        p {
+            text-align: center;
+            color: #666;
+        }
 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        th {
+            background-color: #263b59;
+            color: white;
+            padding: 14px;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #edf2f7;
+        }
+
+        tbody tr:hover {
+            background-color: #dce8f5;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            color: #263b59;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #263b59;
+        }
+
+        .referensi a {
+            color: #1769aa;
+            text-decoration: none;
+        }
+
+        .referensi a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 12px;
+                overflow-x: auto;
+            }
+
+            table {
+                min-width: 600px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Analisis Komparatif Platform</h1>
+        <p>Bagian 2 — Perbandingan Web, Desktop, dan Mobile</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspek</th>
+                    <th>Web</th>
+                    <th>Desktop</th>
+                    <th>Mobile</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Bahasa utama</td>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td>Java, C#, C++</td>
+                    <td>Java, Kotlin, Dart</td>
+                </tr>
+
+                <tr>
+                    <td>Arsitektur</td>
+                    <td>Client-server</td>
+                    <td>Standalone atau client-server</td>
+                    <td>Client-server atau standalone</td>
+                </tr>
+
+                <tr>
+                    <td>Cara distribusi</td>
+                    <td>Browser dan URL</td>
+                    <td>Installer atau toko aplikasi</td>
+                    <td>Google Play Store atau App Store</td>
+                </tr>
+
+                <tr>
+                    <td>Keunggulan</td>
+                    <td>Mudah diakses dan lintas platform</td>
+                    <td>Integrasi dengan sistem operasi</td>
+                    <td>Praktis dan mudah dibawa</td>
+                </tr>
+
+                <tr>
+                    <td>Keterbatasan</td>
+                    <td>Bergantung pada browser</td>
+                    <td>Memerlukan instalasi</td>
+                    <td>Terbatas ukuran layar dan perangkat</td>
+                </tr>
+
+                <tr>
+                    <td>Contoh aplikasi</td>
+                    <td>Google Docs, Tokopedia</td>
+                    <td>Microsoft Word, VS Code</td>
+                    <td>WhatsApp, Instagram</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Referensi</h2>
+
+        <ol class="referensi">
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web"
+                   target="_blank" rel="noopener noreferrer">
+                    MDN Web Docs — Web Technologies
+                </a>
+            </li>
+            <li>
+                <a href="https://learn.microsoft.com/en-us/windows/apps/"
+                   target="_blank" rel="noopener noreferrer">
+                    Microsoft Learn — Windows Apps
+                </a>
+            </li>
+            <li>
+                <a href="https://developer.android.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    Android Developers — Dokumentasi Android
+                </a>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
