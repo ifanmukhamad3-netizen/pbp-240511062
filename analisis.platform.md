@@ -16,14 +16,12 @@
 
 Berdasarkan analisis di atas, platform Web, Desktop, dan Mobile memiliki karakteristik serta keunggulan masing-masing.
 
-- **Web:** Cocok untuk aplikasi yang membutuhkan akses mudah melalui browser dan berbagai perangkat.
-- **Desktop:** Cocok untuk aplikasi yang membutuhkan performa tinggi serta akses langsung ke sistem operasi komputer.
-- **Mobile:** Cocok untuk aplikasi yang mengutamakan mobilitas, kemudahan penggunaan, dan pemanfaatan fitur smartphone.
+- Web: Cocok untuk aplikasi yang membutuhkan akses mudah melalui browser dan berbagai perangkat.
+- Desktop: Cocok untuk aplikasi yang membutuhkan performa tinggi serta akses langsung ke sistem operasi komputer.
+- Mobile: Cocok untuk aplikasi yang mengutamakan mobilitas, kemudahan penggunaan, dan pemanfaatan fitur smartphone.
 
 Ketiga platform tersebut dapat digunakan sesuai kebutuhan pengembangan aplikasi dan target penggunanya.
 
-## 3. Dokumentasi
 
-Dokumentasi hasil eksekusi aplikasi dapat ditambahkan pada bagian ini.
 
 
